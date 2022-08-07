@@ -13,6 +13,7 @@
 		111E5C06289FE891004C619F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111E5C04289FE891004C619F /* Main.storyboard */; };
 		111E5C08289FE893004C619F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111E5C07289FE893004C619F /* Assets.xcassets */; };
 		111E5C0B289FE893004C619F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111E5C09289FE893004C619F /* LaunchScreen.storyboard */; };
+		111E5C13289FFFF7004C619F /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E5C12289FFFF7004C619F /* infoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		111E5C07289FE893004C619F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111E5C0A289FE893004C619F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111E5C0C289FE893004C619F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111E5C12289FFFF7004C619F /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				111E5BFE289FE891004C619F /* AppDelegate.swift */,
 				111E5C00289FE891004C619F /* SceneDelegate.swift */,
 				111E5C02289FE891004C619F /* ViewController.swift */,
+				111E5C12289FFFF7004C619F /* infoViewController.swift */,
 				111E5C04289FE891004C619F /* Main.storyboard */,
-				111E5C07289FE893004C619F /* Assets.xcassets */,
 				111E5C09289FE893004C619F /* LaunchScreen.storyboard */,
+				111E5C07289FE893004C619F /* Assets.xcassets */,
 				111E5C0C289FE893004C619F /* Info.plist */,
 			);
 			path = MyLayoutApp;
@@ -140,6 +143,7 @@
 			files = (
 				111E5C03289FE891004C619F /* ViewController.swift in Sources */,
 				111E5BFF289FE891004C619F /* AppDelegate.swift in Sources */,
+				111E5C13289FFFF7004C619F /* infoViewController.swift in Sources */,
 				111E5C01289FE891004C619F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
